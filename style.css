@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+body
+{
+    background-color: rgb(231, 200, 231);
+    font-family: 'Cedarville Cursive', cursive;
+
+    
+}
+.bunny
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#name
+{
+    /* margin-left: 17px;
+    margin-top: 250px; */
+}
+#tt
+{
+    width: 30%;
+    /* margin-top: 20%;
+    margin-left: 20px;*/
+    background-color:rgb(231, 200, 231) ;
+    border-color: transparent;
+    border-bottom-color: black;
+    height: 25px;
+}
+#intro
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#bun
+{
+    border: rgb(15, 8, 15) 2px solid;
+    /* margin-top: 15%; */
+    border-radius: 50%;
+}
+#send
+{
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+.card
+{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 200, 231);
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+}
+#idk
+{
+    margin-top: 0px;
+}
+#hug
+{
+    border:black 1px solid;
+    border-radius: 50%;
+}
